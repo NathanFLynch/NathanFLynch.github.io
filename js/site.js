@@ -17,7 +17,10 @@
   /* ---------- shared header / footer ---------- */
   function header() {
     const links = (SITE.links || [])
-      .map((l) => `<a href="${esc(l.url)}">${esc(l.label)}</a>`).join("");
+      .map((l) => l.url
+    ? `<a href="${esc(l.url)}">${esc(l.label)}</a>`
+    : `<span>${esc(l.label)}</span>`)
+  .join("");
     return `<header class="site-head">
       <a class="brand" href="index.html">${esc(SITE.name)}</a>
       <nav class="site-nav" aria-label="Contact">${links}</nav>
