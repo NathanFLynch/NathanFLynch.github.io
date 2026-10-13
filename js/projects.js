@@ -15,7 +15,7 @@ const SITE = {
   links: [
     { label: "Email",    url: "nflynch@usc.edu" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/nflynch" },
-    // { label: "Resume", url: "resume.pdf" },   // drop resume.pdf next to index.html, then remove the //
+    { label: "Resume", url: "resume.pdf" },
   ],
 };
 
