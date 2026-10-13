@@ -7,14 +7,14 @@
    ===================================================================== */
 
 const SITE = {
-  name: "Your Name",
+  name: "Nathan Filios Lynch",
   headline: "Mechanical design, modeled in Siemens NX.",
   intro:
-    "Mechanical engineering student at Your University. Select a model to see renders, " +
+    "Mechanical engineering student at University of Southern California. Select a model to see renders, " +
     "drawings, and the thinking behind it.",
   links: [
-    { label: "Email",    url: "mailto:you@university.edu" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-profile" },
+    { label: "Email",    url: "nflynch@usc.edu" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/nflynch" },
     // { label: "Resume", url: "resume.pdf" },   // drop resume.pdf next to index.html, then remove the //
   ],
 };
