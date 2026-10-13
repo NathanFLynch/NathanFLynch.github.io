@@ -13,7 +13,7 @@ const SITE = {
     "Mechanical engineering student at University of Southern California. Select a model to see renders, " +
     "drawings, and the thinking behind it.",
   links: [
-    { label: "Email",    url: "mailto:nflynch@usc.edu" },
+    { label: "nflynch@usc.edu" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/nflynch" },
     { label: "Resume", url: "resume.pdf" },
   ],
